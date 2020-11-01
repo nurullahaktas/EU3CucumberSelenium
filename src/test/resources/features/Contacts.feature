@@ -23,6 +23,7 @@ Feature: Contacts page
       | System     |
 
 
+
   Scenario: Menu Options Sales Manager
     Given the user logged in as "sales manager"
     Then the user should see following options
