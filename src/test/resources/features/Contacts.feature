@@ -61,7 +61,7 @@ Feature: Contacts page
       | user10         | Brenden   | Schneider |
       | storemanager85 | Stephan   | Haley     |
 
-    @wip
+    @wip @db
     Scenario: Contacts test with email
       Given the user logged in as "sales manager"
       And the user navigates to "Customers" "Contacts"
